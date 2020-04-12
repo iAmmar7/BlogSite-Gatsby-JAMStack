@@ -1,11 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
+
+import Layout from '../components/layout'
+import Title from '../components/title'
 
 export default () => (
-  <div>
-    <h1>This is the index page</h1>
+  <Layout>
+    <Title text="Welcome" />
     <div>
-      <Link to="/">Home</Link> | <Link to="/about">About</Link>
+      <Link to="/">Home</Link> | <Link to="/about">About me</Link>
     </div>
     <p>
       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -17,5 +20,5 @@ export default () => (
       impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
       assumenda est, omnis dolor repellendus.
     </p>
-  </div>
+  </Layout>
 )
