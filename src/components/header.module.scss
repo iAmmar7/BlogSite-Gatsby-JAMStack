@@ -2,9 +2,9 @@
 
 .container {
   max-width: $site-width;
-  min-height: 140px;
+  min-height: 100px;
   margin: 0 auto;
-  padding-top: 30px;
+  // padding-top: 30px;
   margin-top: 50px;
 
   .row {
@@ -13,7 +13,7 @@
   }
 
   .button {
-    background-color: $color-pallete-1;
+    background-color: $color-pallete-2;
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
@@ -29,7 +29,7 @@
     margin-bottom: 10px;
 
     &:hover {
-      background-color: $color-pallete-2;
+      background-color: $color-pallete-1;
     }
   }
 

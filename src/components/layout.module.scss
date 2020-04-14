@@ -1,3 +1,5 @@
+@import '../styles/global';
+
 .container {
   margin: 0 auto;
   max-width: 960px;
@@ -5,6 +7,6 @@
   // position: relative;
 
   .content {
-    // margin-bottom: 10em;
+    color: $paragraph-color;
   }
 }

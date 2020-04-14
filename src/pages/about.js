@@ -8,9 +8,28 @@ export default () => (
   <Layout>
     <Title text="About Me" />
     <div>
-      <Link to="/">Home</Link> | <Link to="/about">About</Link>
+      <Link
+        to="/"
+        style={{ color: '#0984e3', marginRight: '8px', textDecoration: 'none' }}
+      >
+        Home
+      </Link>
+      |
+      <Link
+        to="/about"
+        style={{ color: '#0984e3', marginLeft: '8px', textDecoration: 'none' }}
+      >
+        About
+      </Link>
     </div>
-    <p>
+    <p
+      style={{
+        marginBottom: '30px',
+        fontSize: '18px',
+        lineHeight: '30px',
+        textAlign: 'justify',
+      }}
+    >
       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
       praesentium voluptatum deleniti atque corrupti quos dolores et quas
       molestias excepturi sint occaecati cupiditate non provident, similique

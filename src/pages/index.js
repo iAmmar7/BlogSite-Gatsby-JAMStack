@@ -7,7 +7,14 @@ import ArticleList from '../components/article-list'
 export default () => (
   <Layout>
     <Title text="Welcome" />
-    <p>
+    <p
+      style={{
+        marginBottom: '30px',
+        fontSize: '18px',
+        lineHeight: '30px',
+        textAlign: 'justify',
+      }}
+    >
       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
       praesentium voluptatum deleniti atque corrupti quos dolores et quas
       molestias excepturi sint occaecati cupiditate non provident, similique
