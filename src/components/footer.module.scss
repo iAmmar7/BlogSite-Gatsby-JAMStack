@@ -6,14 +6,14 @@ $footer-height: 100px;
   background-color: $color-pallete-3;
   width: $container-width;
   height: $footer-height;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  // bottom: 0;
   left: 0;
 
   .footer {
     margin: 0 auto;
     max-width: $site-width;
-    height: $footer-height;
+    // height: $footer-height;
     line-height: $footer-height;
     color: $color-pallete-4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

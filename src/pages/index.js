@@ -1,15 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Title from '../components/title'
+import ArticleList from '../components/article-list'
 
 export default () => (
   <Layout>
     <Title text="Welcome" />
-    <div>
-      <Link to="/">Home</Link> | <Link to="/about">About me</Link>
-    </div>
     <p>
       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
       praesentium voluptatum deleniti atque corrupti quos dolores et quas
@@ -20,5 +17,6 @@ export default () => (
       impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
       assumenda est, omnis dolor repellendus.
     </p>
+    <ArticleList />
   </Layout>
 )
